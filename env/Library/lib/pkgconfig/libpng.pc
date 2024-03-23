@@ -1,0 +1,12 @@
+prefix=C:/Users/Dato/Desktop/ProjectSkyNet/env/Library
+exec_prefix=C:/Users/Dato/Desktop/ProjectSkyNet/env/Library
+libdir=C:/Users/Dato/Desktop/ProjectSkyNet/env/Library/lib
+includedir=C:/Users/Dato/Desktop/ProjectSkyNet/env/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}
